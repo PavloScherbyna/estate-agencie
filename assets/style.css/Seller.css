@@ -1,0 +1,50 @@
+@import url(const_variable.css);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+.main_inform{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.text_info h1{
+ font-size: 40px;
+ margin: 0 0 10px 0;
+}
+
+.text_info h2{
+    font-size: 32px;
+    margin: 0 0 10px 0;
+}
+li{
+    font-size: 20px;
+    list-style: none;
+}
+ion-icon{
+    color: gold;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.correct_list{
+    display: flex;
+    align-items: center;
+}
+.form_info{
+    width: 300px;
+}
+.client_name_data{
+    display: flex;
+    flex-direction: column;
+
+}
+.estate_data{
+    display: flex;
+    flex-direction: column;
+    
+}
