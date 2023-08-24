@@ -1,0 +1,109 @@
+@import url(const_variable.css);
+.first_block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.first_block input{
+    width:1000px;
+    height: 45px;
+    padding-left: 15px;
+    margin-right: 10px;
+}
+.button_find{
+    border: 2px solid #251d15;
+    padding: 9px 25px;
+    border-radius: 10px;
+}
+.second_block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.second_block input{
+    width: 200px;
+    height: 35px;
+    margin: 0 20px;
+    padding-left: 15px;
+}
+.second_block select{
+    width: 200px;
+    height: 35px;
+    padding-left: 15px;
+}
+.main_filtr_button{
+    display: block;
+    background-color: #a6937f;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.shadow_input{
+    display: none;
+    margin: 10px 20px 0 0;
+}
+#floor,
+#storey,
+#type_of_house,
+#type_of_repair{
+    width: 200px;
+    height: 35px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+
+#img img{
+    width: 280px;
+    height: 280px;
+}
+
+.block_with_object{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    background-color:#FBFBFB;
+    align-items: center;
+    margin-bottom: 27px;
+}
+.main_inform_card{
+    padding: 7px 24px 17px 0;
+}
+.main_inform_card h1{
+    font-size: 17px;
+}
+.metral_station{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 2px;
+margin: 12px 0 16px 0;
+}
+.calculation{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cost_aria{
+    color:#7A7A7A;
+}
+.main_characteristics{
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+}
+.main_characteristics img{
+   margin-right: 3px;
+}
+.main_characteristics p{
+    margin-right: 30px;
+}
+.short_info{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 12px;
+}
+.short_info p{
+    padding: 2px 7.64px 2px 8px;
+    border-radius: 30px;
+    background: #F1F1F1;
+}
