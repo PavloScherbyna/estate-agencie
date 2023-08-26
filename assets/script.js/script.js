@@ -1,26 +1,16 @@
-function toggleMenu() {
-    var burgerButton = document.getElementById("burgerButton");
-    burgerButton.classList.toggle("active");
-}
+document.addEventListener("DOMContentLoaded", function () {
+    const hamburgerMenu = document.querySelector(".hamburger-menu");
+    const blurBg = document.querySelector(".blur-bg");
+  
+    hamburgerMenu.addEventListener("click", function () {
+      blurBg.style.display = "block";
+    });
 
-var burgerButton = document.getElementById("burgerButton");
-burgerButton.addEventListener("click", toggleMenu);
-
-
-var burgerButton = document.getElementById("burgerButton");
-var menuInform = document.querySelector(".menu_inform");
-
-burgerButton.addEventListener("click", function() {
-    menuInform.classList.toggle("active");
+    // Додайте код для обробки події закриття меню
+    const menuToggle = document.getElementById("menu__toggle");
+    menuToggle.addEventListener("change", function () {
+        if (!this.checked) {
+            blurBg.style.display = "none";
+        }
+    });
 });
-
-// var burgerButton = document.getElementById("burgerButton");
-// var blurOverlay = document.getElementById("blurOverlay");
-// var menuInform = document.querySelector(".menu_inform");
-
-// burgerButton.addEventListener("click", function() {
-//     burgerButton.classList.toggle("active");
-//     blurOverlay.classList.toggle("active");
-//     menuInform.classList.toggle("active");
-// });
-
